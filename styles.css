@@ -7,17 +7,17 @@
 
 /* Body styling */
 body {
-    background-color: orangered;
+    background-color: cornflowerblue;
     font-family: monospace;
 }
 
 h1{
-    color: lemonchiffon;
+    color: burlywood;
 }
 
 /* Navbar styling */
 .navbar {
-    background-color: silver;
+    background-color: darksalmon;
     padding: 25px 50px 25px 50px;
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@ h1{
 /* Logo styling */
 .logo {
     font-size: 1.5em;
-    color: #fff;
+    color: firebrick;
     font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ h1{
 
 .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-size: 1.1em;
     padding: 5px 10px;
     transition: color 0.3s ease;
@@ -74,4 +74,29 @@ h1{
 
 .nav-links a:hover::after {
     width: 100%;
+}
+
+/* hero-section */
+.hero-section{
+    background: url('images/hero-image.jpg')no-repeat center center/cover;
+    text-align: center;
+    padding: 180px 30px;
+    height: 510px;
+}
+
+.hero-content h1{
+    font-size: 4em;
+    margin-bottom: 25px;
+}
+
+.hero-content h3{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    background-color: yellowgreen;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
 }
